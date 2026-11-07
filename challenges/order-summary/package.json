@@ -1,0 +1,19 @@
+{
+  "name": "order-summary",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"src/**/*.test.ts\"",
+    "test:watch": "node --test --watch \"src/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "start": "node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "~5.6.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
